@@ -136,7 +136,7 @@ function wpbp_scripts() {
 /**********************************************
  * CUSTOM JS
  *********************************************/
-  wp_enqueue_script('custom-scripts', get_template_directory_uri() . '/js/custom.js', null, null, true);
+  wp_enqueue_script('custom-scripts', get_template_directory_uri() . '/src/js/custom.js', null, null, true);
 	
 
   
@@ -159,19 +159,6 @@ add_action( 'wp_enqueue_scripts', 'wpbp_scripts' );
 
 
 
-
-/**********************************************
- * GOOGLE FONTS
- *********************************************/
-add_action( 'wp_enqueue_scripts', 'custom_add_google_fonts' );
-/**
- * Summary of custom_add_google_fonts
- * @return void
- */
-function custom_add_google_fonts() {
-    wp_enqueue_style( 'custom-google-fonts', 'https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&display=swap', false );
-
-}
 
 
 

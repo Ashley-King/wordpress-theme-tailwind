@@ -24,7 +24,7 @@ defined( 'ABSPATH' ) || exit;
 
   <header class="site-header">
 
-    <p>header</p>
+    <h1 class="font-heading">header</h1>
 
 
   </header>

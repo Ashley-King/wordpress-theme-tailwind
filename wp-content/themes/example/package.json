@@ -9,8 +9,8 @@
   "license": "GPL-2.0",
   "licenseuri": "http://www.gnu.org/licenses/gpl-2.0.txt",
   "scripts": {
-    "tailwind": "npx tailwindcss -i ./css/tailwind.css -o ./css/style.unprefixed.css --watch ",
-    "autoprefixer": "npx postcss -c postcss.config.js -o ./style.css --watch ./css/style.unprefixed.css --no-map",
+    "tailwind": "npx tailwindcss -i ./src/css/tailwind.css -o ./src/css/style.unprefixed.css --watch ",
+    "autoprefixer": "npx postcss -c postcss.config.js -o ./style.css --watch ./src/css/style.unprefixed.css --no-map",
     "browser-sync": "browser-sync start --proxy 'http://directory.local' --files './style.css, ./**/*.php'",
     "dev": "run-p tailwind autoprefixer browser-sync"
   },

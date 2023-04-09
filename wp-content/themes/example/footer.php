@@ -3,6 +3,6 @@
 defined( 'ABSPATH' ) || exit;
 ?>
 
-<h1>Footer</h1>
+<h1 class="font-heading">Footer</h1>
 
 <?php wp_footer() ?>
